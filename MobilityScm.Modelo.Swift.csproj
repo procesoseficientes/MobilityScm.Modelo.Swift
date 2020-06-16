@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+    <PackageId>MobilityScm.Modelo.Swift</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Modelo de Swift</Description>
+    <Copyright></Copyright>
+    <Authors>Procesos Eficientes</Authors>
+    <PackageProjectUrl>https://github.com/procesoseficientes/MobilityScm.Modelo.Swift</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/procesoseficientes/MobilityScm.Modelo.Swift</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MobilityScm.Modelo.Entidades" Version="1.0.0" />
+    <PackageReference Include="MobilityScm.Modelo.Sqlite" Version="1.0.0" />
+    <PackageReference Include="MobilityScm.Modelo.TipoYEstados" Version="1.0.3" />
+    <PackageReference Include="MobilityScm.Utilerias" Version="1.0.1" />
+    <PackageReference Include="MobilityScm.Vertical" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
